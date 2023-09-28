@@ -11,38 +11,66 @@ class TabletScreen extends StatelessWidget {
       length: 5,
       child: Scaffold(
         backgroundColor: Colors.white,
+        drawer: Drawer(
+          child: ListView(
+            children: [
+              ListTile(
+                title: Text("Home"),
+              ),
+              ListTile(
+                title: Text("Horoscope"),
+              ),
+              ListTile(
+                title: Text("Free Kundli"),
+              ),
+              ListTile(
+                title: Text("Kundli Matching"),
+              ),
+              ListTile(
+                title: Text("AstroMall"),
+              ),
+              ListTile(
+                title: Text("Blog"),
+              ),
+              ListTile(
+                title: Text("Contect"),
+              )
+            ],
+          ),
+        ),
         appBar: AppBar(
           elevation: 0,
           toolbarHeight: 80,
           backgroundColor: Colors.white,
-          bottom: PreferredSize(
-              preferredSize: const Size.fromHeight(48.0),
-              child: Container(
-                width: width(context),
-                color: Colors.amber,
-                child: Center(
-                  child: const TabBar(
-                    labelColor: Colors.black,
-                    isScrollable: true,
-                    indicatorColor: Colors.amber,
-                    tabs: [
-                      Tab(
-                        text: 'Home',
-                        // icon: Text(
-                        //   "data",
-                        //   style: TextStyle(fontSize: 5),
-                        // ),
-                      ),
-                      Tab(text: 'Horoscope'),
-                      Tab(text: 'Free Kundli'),
-                      Tab(text: 'Kundli Matching'),
-                      Tab(text: 'AstroMall'),
-                      Tab(text: 'Blog'),
-                      Tab(text: 'Contect'),
-                    ],
-                  ),
-                ),
-              )),
+
+          // bottom: PreferredSize(
+          //     preferredSize: const Size.fromHeight(48.0),
+          //     child: Container(
+          //       width: width(context),
+          //       color: Colors.amber,
+          //       child: Center(
+          //         child: const TabBar(
+          //           labelColor: Colors.black,
+          //           isScrollable: true,
+          //           indicatorColor: Colors.amber,
+          //           tabs: [
+          //             Tab(
+          //               text: 'Home',
+          //               // icon: Text(
+          //               //   "data",
+          //               //   style: TextStyle(fontSize: 5),
+          //               // ),
+          //             ),
+          //             Tab(text: 'Horoscope'),
+          //             Tab(text: 'Free Kundli'),
+          //             Tab(text: 'Kundli Matching'),
+          //             Tab(text: 'AstroMall'),
+          //             Tab(text: 'Blog'),
+          //             Tab(text: 'Contect'),
+          //           ],
+          //         ),
+          //       ),
+          //     )),
           title: Row(
             children: [
               Image.asset(
@@ -72,23 +100,24 @@ class TabletScreen extends StatelessWidget {
             ],
           ),
         ),
-        body: TabBarView(children: [
-          Center(
-            child: Text("1"),
-          ),
-          Center(
-            child: Text("2"),
-          ),
-          Center(
-            child: Text("3"),
-          ),
-          Center(
-            child: Text("4"),
-          ),
-          Center(
-            child: Text("5"),
-          )
-        ]),
+        body: Center(child: Text("Under Constuctor..........")),
+        // body: TabBarView(children: [
+        //   Center(
+        //     child: Text("1"),
+        //   ),
+        //   Center(
+        //     child: Text("2"),
+        //   ),
+        //   Center(
+        //     child: Text("3"),
+        //   ),
+        //   Center(
+        //     child: Text("4"),
+        //   ),
+        //   Center(
+        //     child: Text("5"),
+        //   )
+        // ]),
       ),
     );
   }
