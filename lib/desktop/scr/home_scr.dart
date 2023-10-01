@@ -55,6 +55,268 @@ class HomeScreen extends StatelessWidget {
                           child: ProdCard())),
                 );
               }),
+        ),
+        heightSizedBox(10.0),
+        Container(
+          width: width(context),
+          height: 500,
+          color: Colors.amberAccent,
+        ),
+        heightSizedBox(20.0),
+        Container(
+          width: width(context),
+          height: null,
+          color: Colors.white,
+          child: Column(
+            children: [
+              Text(
+                "Our Astrologers",
+                style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold),
+              ),
+              heightSizedBox(10.0),
+              Text(
+                "Get consultation from India’s Best Astrologers and Readers at Best Rates. You are just a call away!!",
+                style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w600),
+              ),
+              heightSizedBox(10.0),
+              Text(
+                "Our in-house expert astrologers provide accurate solutions to all your problems. Along with that, get free Hindu astrology predictions daily\non our website. Get all the information of astrology at the comfort of your home. InstaAstro provides you with an online platform to discuss \n   your queries with the most renowned and authentic astrologers from all over India. Select from our range of famous vedic astrologers,\n numerologists and vastu experts and consult with them whichever way you like — call or online chat. Get insights and answers\n format and language ranging from English, Hindi, Tamil, Punjabi and many other regional languages. Our astrologers are equipped with\n great experience and knowledge and can provide predictions and remedies on love and relationship issues,\n husband and wife problems, job queries, money matters, business predictions, education queries and other personal and professional\n issues. Be a part of our extended family and relive the joy that our happy customers have cherished. Get accurate astrology predictions as\n per your birth sign, birth chart and kundli status and benefit from the vast knowledge of our astrologers.",
+                style: TextStyle(
+                    fontSize: 18.0, fontWeight: FontWeight.w500, height: 1.5),
+                overflow: TextOverflow.visible,
+              ),
+              heightSizedBox(20.0),
+              Text(
+                "Why Talk To Our Astrologers?",
+                style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+              ),
+              Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(15),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(20.0),
+                          width: 500,
+                          color: Colors.grey.shade200,
+                          child: Center(
+                            child: Text(
+                              "550+ expert astrologers",
+                              style: TextStyle(
+                                  fontSize: 16.0, fontWeight: FontWeight.w600),
+                            ),
+                          ),
+                        ),
+                        widthSizedBox(10.0),
+                        Container(
+                          padding: EdgeInsets.all(20.0),
+                          width: 500,
+                          color: Colors.grey.shade200,
+                          child: Center(
+                            child: Text(
+                              "Get a better understanding & guidance",
+                              style: TextStyle(
+                                  fontSize: 16.0, fontWeight: FontWeight.w600),
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Container(
+                        padding: EdgeInsets.all(20.0),
+                        width: 500,
+                        color: Colors.grey.shade200,
+                        child: Center(
+                          child: Text(
+                            "Personalized solutions on the phone",
+                            style: TextStyle(
+                                fontSize: 16.0, fontWeight: FontWeight.w600),
+                          ),
+                        ),
+                      ),
+                      widthSizedBox(10.0),
+                      Container(
+                        padding: EdgeInsets.all(20.0),
+                        width: 500,
+                        color: Colors.grey.shade200,
+                        child: Center(
+                          child: Text(
+                            "Private and confidential",
+                            style: TextStyle(
+                                fontSize: 16.0, fontWeight: FontWeight.w600),
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                  heightSizedBox(15.0),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Container(
+                        padding: EdgeInsets.all(20.0),
+                        width: 500,
+                        color: Colors.grey.shade200,
+                        child: Center(
+                          child: Text(
+                            "Live astrology consultation anytime, anywhere",
+                            style: TextStyle(
+                                fontSize: 16.0, fontWeight: FontWeight.w600),
+                          ),
+                        ),
+                      ),
+                      widthSizedBox(10.0),
+                      Container(
+                        padding: EdgeInsets.all(20.0),
+                        width: 500,
+                        color: Colors.grey.shade200,
+                        child: Center(
+                          child: Text(
+                            "Instant solutions in difficult time",
+                            style: TextStyle(
+                                fontSize: 16.0, fontWeight: FontWeight.w600),
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
+                ],
+              ),
+              heightSizedBox(30.0),
+              Container(
+                padding: EdgeInsets.all(20),
+                width: width(context),
+                height: null,
+                color: Colors.amberAccent,
+                child: Column(
+                  children: [
+                    heightSizedBox(10.0),
+                    Text(
+                      "Accurate Predictions",
+                      style: TextStyle(
+                          fontSize: 28.0, fontWeight: FontWeight.bold),
+                    ),
+                    heightSizedBox(10.0),
+                    Text(
+                      "Tired of wasting your energy and money on people who are there to scam you? Get 100% accurate predictions from our astrologers\n who care about you and provide you with full privacy. Love, marriage, job and professional uncertainty can hit you anytime.\n What’s worse is entrusting someone with that knowledge and getting ripped off of your money and peace.\n At InstaAstro you are simply a call away from getting genuine solutions at the time and place which you desire. Everything is\n available 24x7. InstAstro can provide you with 100% genuine solutions with full privacy and understanding. Get astrology and\n                                                                                  horoscope predictions for-",
+                      style: TextStyle(
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.w500,
+                          height: 1.5),
+                    ),
+                    heightSizedBox(15.0),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(20.0),
+                          width: 500,
+                          color: Colors.grey.shade100,
+                          child: Center(
+                            child: Text(
+                              "Love, marriage and other relationship problems",
+                              style: TextStyle(
+                                  fontSize: 16.0, fontWeight: FontWeight.w600),
+                            ),
+                          ),
+                        ),
+                        widthSizedBox(10.0),
+                        Container(
+                          padding: EdgeInsets.all(20.0),
+                          width: 500,
+                          color: Colors.grey.shade100,
+                          child: Center(
+                            child: Text(
+                              "Kalsarp yog and kundali grahana yog",
+                              style: TextStyle(
+                                  fontSize: 16.0, fontWeight: FontWeight.w600),
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                    heightSizedBox(15.0),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(20.0),
+                          width: 500,
+                          color: Colors.grey.shade100,
+                          child: Center(
+                            child: Text(
+                              "Married life, divorce and disturbed relations",
+                              style: TextStyle(
+                                  fontSize: 16.0, fontWeight: FontWeight.w600),
+                            ),
+                          ),
+                        ),
+                        widthSizedBox(10.0),
+                        Container(
+                          padding: EdgeInsets.all(20.0),
+                          width: 500,
+                          color: Colors.grey.shade100,
+                          child: Center(
+                            child: Text(
+                              "Business, career, and money problems",
+                              style: TextStyle(
+                                  fontSize: 16.0, fontWeight: FontWeight.w600),
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                    heightSizedBox(15.0),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(20.0),
+                          width: 500,
+                          color: Colors.grey.shade100,
+                          child: Center(
+                            child: Text(
+                              "Family conflicts and property issues",
+                              style: TextStyle(
+                                  fontSize: 16.0, fontWeight: FontWeight.w600),
+                            ),
+                          ),
+                        ),
+                        widthSizedBox(10.0),
+                        Container(
+                          padding: EdgeInsets.all(20.0),
+                          width: 500,
+                          color: Colors.grey.shade100,
+                          child: Center(
+                            child: Text(
+                              "Uncertain and unstable financial conditions",
+                              style: TextStyle(
+                                  fontSize: 16.0, fontWeight: FontWeight.w600),
+                            ),
+                          ),
+                        )
+                      ],
+                    ),
+                    heightSizedBox(10.0),
+                    Text(
+                      "To ensure that you have immediate solutions to your problems at the touch of your screen, InstaAstro works hard to provide you with\n expertise, privacy, local astrologers and their numbers, customer satisfaction, 24x7 availability along with multiple sessions. Take the leap\n of faith and enjoy the best astrology services with prime features.",
+                      style: TextStyle(
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.w500,
+                          height: 1.5),
+                    ),
+                  ],
+                ),
+              ),
+              heightSizedBox(20.0),
+            ],
+          ),
         )
       ],
     );
