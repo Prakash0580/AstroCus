@@ -1,11 +1,12 @@
+//
+import 'package:astroweb_cus/desktop/desktop.dart';
 import 'package:astroweb_cus/mobile/mobile.dart';
+import 'package:astroweb_cus/responsive/responsive.dart';
 import 'package:astroweb_cus/teblet/teblet.dart';
 import 'package:flutter/material.dart';
-import 'desktop/desktop.dart';
-import 'responsive/responsive.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -14,13 +15,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "AstroKapish",
       debugShowCheckedModeBanner: false,
       home: ResponsiveLayout(
-        mobileScaffold: const MobileScreen(),
-        tabletScaffold: const TabletScreen(),
-        desktopScaffold: const DesktopScreen(),
-      ),
+          mobileScaffold: MobileScreen(),
+          tabletScaffold: TabletScreen(),
+          desktopScaffold: DesktopScreen()),
     );
   }
 }

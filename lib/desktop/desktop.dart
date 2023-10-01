@@ -1,3 +1,4 @@
+import 'package:astroweb_cus/desktop/scr/home_scr.dart';
 import 'package:astroweb_cus/utils/common_style.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -8,7 +9,7 @@ class DesktopScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 5,
+      length: 7,
       child: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
@@ -73,9 +74,7 @@ class DesktopScreen extends StatelessWidget {
           ),
         ),
         body: TabBarView(children: [
-          Center(
-            child: Text("1"),
-          ),
+          HomeScreen(),
           Center(
             child: Text("2"),
           ),
@@ -87,7 +86,13 @@ class DesktopScreen extends StatelessWidget {
           ),
           Center(
             child: Text("5"),
-          )
+          ),
+          Center(
+            child: Text("5"),
+          ),
+          Center(
+            child: Text("5"),
+          ),
         ]),
       ),
     );
