@@ -58,11 +58,114 @@ class HomeScreen extends StatelessWidget {
         ),
         heightSizedBox(10.0),
         Container(
+          padding: EdgeInsets.all(25.0),
           width: width(context),
-          height: 500,
+          height: null,
           color: Colors.amberAccent,
+          child: Column(
+            children: [
+              Text(
+                "Our Promise",
+                style: TextStyle(fontSize: 28.0, fontWeight: FontWeight.bold),
+              ),
+              heightSizedBox(20.0),
+              Text(
+                "Top Astrologers. 24x7 customer support. Happy to help.",
+                style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.w600),
+              ),
+              heightSizedBox(25.0),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    height: 120,
+                    width: 330,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      color: Colors.white,
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        CircleAvatar(
+                          radius: 20,
+                          child: Icon(
+                            Icons.money,
+                            color: Colors.white,
+                          ),
+                          backgroundColor: Colors.purpleAccent,
+                        ),
+                        heightSizedBox(5.0),
+                        Text(
+                          "Money Back Guarantee",
+                          style: TextStyle(
+                              fontSize: 18.0, fontWeight: FontWeight.w600),
+                        ),
+                      ],
+                    ),
+                  ),
+                  widthSizedBox(30.0),
+                  Container(
+                    height: 120,
+                    width: 330,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      color: Colors.white,
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        CircleAvatar(
+                          radius: 20,
+                          child: Icon(
+                            Icons.verified,
+                            color: Colors.white,
+                          ),
+                          backgroundColor: Colors.lightBlueAccent,
+                        ),
+                        heightSizedBox(5.0),
+                        Text(
+                          "Verified Expert Astrologers",
+                          style: TextStyle(
+                              fontSize: 18.0, fontWeight: FontWeight.w600),
+                        ),
+                      ],
+                    ),
+                  ),
+                  widthSizedBox(30.0),
+                  Container(
+                    height: 120,
+                    width: 330,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      color: Colors.white,
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        CircleAvatar(
+                          radius: 20,
+                          child: Icon(
+                            Icons.security_outlined,
+                            color: Colors.white,
+                          ),
+                          backgroundColor: Colors.pinkAccent,
+                        ),
+                        heightSizedBox(5.0),
+                        Text(
+                          "100% Secure Payment",
+                          style: TextStyle(
+                              fontSize: 18.0, fontWeight: FontWeight.w600),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
         ),
-        heightSizedBox(20.0),
+        heightSizedBox(30.0),
         Container(
           width: width(context),
           height: null,
