@@ -9,15 +9,21 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
-        Image.network(
-          "https://img.freepik.com/free-photo/mystical-numerology-scene_52683-107762.jpg?w=1380&t=st=1696179432~exp=1696180032~hmac=6624ca23628b8ff6eb1535c6891c867ba17023cc34c0e652fed5f90ca4958ae2",
+        Image.asset(
+          "images/homebanner.png",
           width: width(context),
-          height: 400,
+          height: 420,
           fit: BoxFit.fill,
         ),
+        // Image.network(
+        //   "https://img.freepik.com/free-photo/mystical-numerology-scene_52683-107762.jpg?w=1380&t=st=1696179432~exp=1696180032~hmac=6624ca23628b8ff6eb1535c6891c867ba17023cc34c0e652fed5f90ca4958ae2",
+        //   width: width(context),
+        //   height: 400,
+        //   fit: BoxFit.fill,
+        // ),
         Padding(
           padding:
-              const EdgeInsets.only(top: 20, left: 150, right: 150, bottom: 20),
+              const EdgeInsets.only(top: 10, left: 150, right: 150, bottom: 20),
           child: GridView.builder(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
