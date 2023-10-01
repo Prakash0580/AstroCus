@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../utils/common_style.dart';
@@ -418,6 +419,149 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               heightSizedBox(20.0),
+              Container(
+                color: Color(0xff454545),
+                padding: EdgeInsets.all(25.0),
+                width: width(context),
+                height: null,
+                child: Padding(
+                  padding: const EdgeInsets.only(
+                      left: 150, right: 150, top: 10, bottom: 10),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Column(
+                        children: [
+                          Text(
+                            "About AstroKapish",
+                            style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.white),
+                          ),
+                          heightSizedBox(5.0),
+                          Container(
+                            color: Colors.amber,
+                            height: 2,
+                            width: 150,
+                          )
+                        ],
+                      ),
+                      heightSizedBox(8.0),
+                      Text(
+                        "AstroKapish is the best astrology website for online Astrology predictions. Talk to Astrologer on call and get answers to all your worries by seeing the future life\nthrough Astrology Kundli Predictions from the best Astrologers from India. Get best future predictions related to Marriage, love life, Career or Health over call,\nchat, query or report.",
+                        style: TextStyle(
+                            fontSize: 16.0,
+                            color: Colors.white,
+                            fontWeight: FontWeight.w500,
+                            height: 2),
+                      ),
+                      heightSizedBox(8.0),
+                      Container(
+                        color: Colors.white,
+                        height: 1,
+                        width: width(context) / 1.45,
+                      ),
+                      heightSizedBox(15.0),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Horoscope",
+                                style: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.w600,
+                                    color: Colors.white),
+                              ),
+                              heightSizedBox(5.0),
+                              Container(
+                                color: Colors.amber,
+                                height: 2,
+                                width: 90,
+                              ),
+                              heightSizedBox(15.0),
+                              InkWell(
+                                onTap: () {},
+                                child: Text(
+                                  "Horoscope 2023",
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.white),
+                                ),
+                              ),
+                              heightSizedBox(10.0),
+                              InkWell(
+                                onTap: () {},
+                                child: Text(
+                                  "Todays Horoscope",
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.white),
+                                ),
+                              ),
+                              heightSizedBox(10.0),
+                              InkWell(
+                                onTap: () {},
+                                child: Text(
+                                  "Todays Love Horoscope",
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.white),
+                                ),
+                              ),
+                              heightSizedBox(10.0),
+                              InkWell(
+                                onTap: () {},
+                                child: Text(
+                                  "Yesterday Horoscope ",
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.white),
+                                ),
+                              ),
+                              heightSizedBox(10.0),
+                              InkWell(
+                                onTap: () {},
+                                child: Text(
+                                  "Tomorrow's Horoscope ",
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.white),
+                                ),
+                              ),
+                              heightSizedBox(10.0),
+                              InkWell(
+                                onTap: () {},
+                                child: Text(
+                                  "Weekly Horoscope ",
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.white),
+                                ),
+                              ),
+                              heightSizedBox(10.0),
+                              InkWell(
+                                onTap: () {},
+                                child: Text(
+                                  "Monthly Horoscope ",
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.white),
+                                ),
+                              ),
+                              heightSizedBox(10.0),
+                              InkWell(
+                                onTap: () {},
+                                child: Text(
+                                  "Yearly Horoscope ",
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.white),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+              )
             ],
           ),
         )
